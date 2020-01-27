@@ -33,13 +33,13 @@ public class Biblioteca {
      * Aplicación do Bibliotecario
      */
     private static void bibliotecarioApp() {
-        new MenuBibliotecario().run();  // Lanzamos o menú de Bibliotecario
+        new MenuBibliotecario().choose();  // Lanzamos o menú de Bibliotecario
     }
     
     /**
      * Aplicación do Socio
      */
     private static void socioApp() {
-        new MenuLibro(MenuLibro.Tipo.SOCIO).run(); // Lanzamos o menú de Socio
+        new MenuLibro(MenuLibro.Tipo.SOCIO).choose(); // Lanzamos o menú de Socio
     }
 }
