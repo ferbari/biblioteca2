@@ -1,6 +1,6 @@
 import Utils.Utilidades;
+import biblioteca.GestorDatosColletions;
 import biblioteca.GestorDatos;
-import biblioteca.GestorDatosInterface;
 
 /**
  * Aplicación BIBLIOTECA
@@ -15,7 +15,7 @@ public class Biblioteca {
     /**
      *  Xestor para o acceso á "Base de Datos"
      */
-    public static GestorDatosInterface gd=new GestorDatos();      
+    public static GestorDatos gd=new GestorDatosColletions();      
 
     /**
      * Método Principal.
